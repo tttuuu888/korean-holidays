@@ -1,4 +1,4 @@
-;; korean-holidays.el --- Korean holidays for Emacs calendar.
+;;; korean-holidays.el --- Korean holidays for Emacs calendar.
 
 ;; Author: SeungKi Kim <tttuuu888@gmail.com>
 ;; URL: https://github.com/tttuuu888/korean-holidays
