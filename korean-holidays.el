@@ -1,4 +1,4 @@
-;;; korean-holidays.el --- Korean holidays for Emacs calendar.
+;;; korean-holidays.el --- Korean holidays for calendar.
 
 ;; Author: SeungKi Kim <tttuuu888@gmail.com>
 ;; URL: https://github.com/tttuuu888/korean-holidays
@@ -24,11 +24,11 @@
 ;;
 ;; To use `korean-holidays' exclusively
 ;;
-;;  (setq calendar-holidays holiday-korean-holidays)
+;;  (setq calendar-holidays korean-holidays)
 ;;
 ;; To use 'korean-holidays' additionally
 ;;
-;;  (setq calendar-holidays (append calendar-holidays holiday-korean-holidays))
+;;  (setq calendar-holidays (append calendar-holidays korean-holidays))
 ;;
 ;; inspired by german-holidays.el
 
@@ -39,7 +39,7 @@
   (require 'holidays))
 
 ;;;###autoload
-(defvar holiday-korean-holidays
+(defvar korean-holidays
   '((holiday-fixed    1  1 "신정")
     (holiday-chinese  1  1 "설날")
     (holiday-fixed    3  1 "3.1절")
