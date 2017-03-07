@@ -1,0 +1,26 @@
+#+TITLE:korean-holidays
+[[http://elpa.melpa.org/#/korean-holidays][file:http://elpa.melpa.org/packages/korean-holidays-badge.svg]]
+
+** Introduction
+Korean-holidays is simple package for Emacs calender.
+
+** Installation
+If you use MELPA, just do:
+
+M-x package-install [RET] korean-holidays [RET]
+
+** Configuration
+If you want to use 'korean-holidays' exclusively, add below to your
+init.el .
+#+BEGIN_SRC emacs-lisp
+(setq calendar-holidays korean-holidays)
+#+END_SRC
+
+If you want to use 'korean-holidays' additionally, add below to your
+init.el .
+
+#+BEGIN_SRC emacs-lisp
+(setq calendar-holidays (append calendar-holidays korean-holidays))
+#+END_SRC
+
+
