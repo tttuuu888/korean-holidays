@@ -1,4 +1,4 @@
-;;; korean-holidays.el --- Korean holidays for calendar.
+;;; korean-holidays.el --- Korean holidays for calendar.  -*- lexical-binding: t -*-
 
 ;; Author: SeungKi Kim <tttuuu888@gmail.com>
 ;; URL: https://github.com/tttuuu888/korean-holidays
